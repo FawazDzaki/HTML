@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>belajar form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+  </head>
+
+  <body>
+    <main class="container">
+      <h1>Belajar Form</h1>
+      <hr />
+      <form>
+        <h3>INPUT</h3>
+        <!-- input: kolom input sederhana -->
+        <!-- tips shortcut: input : [type-nya] -->
+        <div>
+          <label for="Nama lengkap">Nama lengkap</label>
+          <input type="text" name="Nama lengkap" id="Nama lengkap" />
+        </div>
+        <div>
+          <label for="Umur">Umur</label>
+          <input type="number" name="Umur" id="Umur" />
+        </div>
+        <div>
+          <label for="TglLahir">Tanggal lahir</label>
+          <input type="date" name="Tgl_Lahir" id="TglLahir" />
+        </div>
+        <div>
+          <label for="AlamatEmail">Alamat Email</label>
+          <input type="email" name="email" id="AlamatEmail" />
+        </div>
+        <div>
+          <label for="Password">Alamat Email</label>
+          <input type="password" name="Password" id="Password" />
+        </div>
+         <div>
+          <label>Jenis Kelamin</label>
+          <input type="radio" name="Jenis kelamin" id="Laki-laki" />
+          <label for="Laki-laki">Laki-laki</label>
+          <input type="radio" name="Jenis kelamin" id="Perempuan" />
+          <label for="Perempuan">Perempuan</label><br><br><br>
+        </div>
+
+        <div class="grid">
+          <!-- action button -->
+          <!-- tips shortcut : button: type-nya -->
+           <!-- gunakan class grid agar jadi kolom -->
+          <button type="reset">Batal</button>
+          <button type="submit">Simpan</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

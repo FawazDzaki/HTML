@@ -1,0 +1,176 @@
+.background {
+  background-color: ghostwhite;
+}
+
+.container h1 {
+  text-align: center; /* bikin isi kontainer rata tengah */
+  color: #1332ac;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+nav{
+  text-align: center;
+}
+
+nav a,
+.nav a {
+  color: blue;
+  text-decoration: none;
+  border-radius: 22px; 
+  background: #fff;
+  padding: 6px 14px;
+  
+}
+.active {
+  background: blue;
+  color: white;
+}
+
+
+.logo {
+  margin-top: 40px;
+}
+
+.logo img {
+  display: block; /* ubah gambar jadi block */
+  margin: 0 auto; /* kasih auto margin biar ke tengah */
+  width: 50px;
+  height: 40px;
+}
+
+#subjudul h4,
+hr {
+  color: gray;
+  text-align: center;
+}
+
+#subjudul h2,
+h3 {
+  color: #1332ac;
+}
+
+.section-title {
+  padding-left: 20px; /* ruang agar teks tidak mepet garis */
+  border-left: 4px solid #d3a11a; /* garis aksen di kiri */
+}
+
+.photo {
+  width: 200px !important; /* atau 250px sesuai kebutuhan */
+  height: 200px !important; /* samakan dengan width untuk bulat sempurna */
+  object-fit: cover; /* isi area tanpa distorsi */
+  border-radius: 50%;
+  border: 3px solid #e5e7eb;
+  text-align: left;
+  margin-left: 20px !important;
+}
+
+.avatar {
+  width: 200px !important; /* atau 250px sesuai kebutuhan */
+  height: 200px !important; /* samakan dengan width untuk bulat sempurna */
+  object-fit: cover; /* isi area tanpa distorsi */
+  border-radius: 50%;
+  border: 3px solid #e5e7eb;
+  text-align: left;
+  margin-left: 20px !important;
+}
+
+.box-1 {
+  background: #ffffff;
+  border: 1px solid #9d9fa4;
+  border-radius: 12px;
+  margin-top: 70px;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.box {
+  background: #ffffff;
+  border: 1px solid #9d9fa4;
+  border-radius: 12px;
+  margin-top: 20px;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.quote {
+  color: #d3a11a;
+}
+
+/*JADWAL*/
+
+.Table {
+  width: 100%;
+  border-collapse: collapse; /*ngapusblock block*/
+  text-align: center;
+  margin:auto;
+  
+}
+.Table th {
+  background-color: #1332ac;
+  color: white;
+  padding: 10px;
+}
+
+.Table td{
+  padding: 10px;
+}
+
+/*END JADWAL*/
+
+/*GALLERY*/
+
+.card {
+  display: inline-block; /* biar kotaknya bisa sejajar */
+  width: 200px; /* Nentuin lebar card */
+  border: 1px solid #000000;
+  margin: 10px; /* kasih jarak antar card */
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.video {
+  width: 300px;
+  height: 160px;
+}
+/* END GALLERY*/
+
+
+
+/*FORM*/
+.label label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.label input, textarea, select {
+  width: 100%;
+}
+
+.grid {
+ text-align: right;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+/*FORM*/
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  color: gray;
+}
+
+
+
