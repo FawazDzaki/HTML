@@ -7,11 +7,22 @@
   font-style: normal;
 }
 
+
+@import url(https://fonts.google.com/specimen/Merriweather);
+
+.playwrite-paragfar{
+  font-family: "Playwrite DE SAS", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 @font-face {
   font-family: "Bismillah Script";
   src: url(fonts/bismillah_script/Bismillah\ Script.ttf);
 }
 
+/* 1.font-size */
 .font{
   font-family:"Bismillah Script";
   color: #FCC61D;
@@ -27,6 +38,7 @@ body {
   background-color: white;
 }
 
+/* 2. text-transform */
 header h1 {
   text-transform: uppercase;
 }
@@ -35,9 +47,10 @@ header h4 {
   font-style: italic;
 }
 
-/* properti yang di pakai ada 2 */
-/* 1.text align */
-/* 2.line-heigth */
+/* properti yang di pakai ada 3 */
+/* 3.text align */
+/* 4.line-heigth */
+/* 5.word-spacing */
 
 header {
   text-align: center;
@@ -53,9 +66,11 @@ article h2 {
   color: #3338a0;
 }
 
+/* 6.letter-spacing */
 article p {
   line-height: 1.8;
   font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .box {
@@ -79,13 +94,16 @@ article p {
   border-left: 5px solid #C59560 ;
 }
 
+/* 7.text-decoration */
 .note{
     background-color: #e4d4a2;
     border-left:5px solid #FCC61D;
     padding: 20px;
+    text-decoration:underline ;
 
 }
 
+/* 8. font-weigth */
 .ttd{
   font-weight:700;
   text-align: right;
