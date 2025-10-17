@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Table</title>
+    <style>
+        table {
+            width: 50%;
+            /* gabungkan border table jadi 1 */
+            border-collapse: collapse;
+        }
+        /* pakai koma untuk muti tag/ selector */
+        td,th {
+            padding: 6px;
+        }
+        th {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Belajar tabel di HTML</h1>
+    <hr />
+    <!-- attr border 1 di HTML  -->
+    <table border="1">
+      <tr>
+        <td>No</td>
+        <td>Nama</td>
+        <td>Qism</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Aisy</td>
+        <td>Ibadah</td>
+      </tr>
+       <tr>
+        <td>2</td>
+        <td>Hakim</td>
+        <td>Keamanan</td>
+      </tr>
+       <tr>
+        <td>3</td>
+        <td>Juna</td>
+        <td>Olahraga</td>
+      </tr>
+         </tr>
+       <tr>
+        <td>4</td>
+        <td>Bilal</td>
+        <td>Dapur</td>
+      </tr>
+         </tr>
+       <tr>
+        <td>5</td>
+        <td>Dika</td>
+        <td>Dapur</td>
+      </tr>
+
+    </table>
+    <h3>Daftar belanja</h3>
+    <!-- shortcut tr>td*3: buat struktur baris x3 kolom -->
+    <!-- standar table di HTML 5 -->
+     <!-- table>thead+tbody+tfoot -->
+    <table border="1" style="width: 50%;">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Barang</th>
+                <th>Harga</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pisang kembung besar</td>
+                <td>Rp 10.000</td>
+            </tr>
+               <tr>
+                <td>2</td>
+                <td>Naspan Kawan Lamo</td>
+                <td>Rp 10.000</td>
+            </tr>
+               <tr>
+                <td>3</td>
+                <td>Gorengan</td>
+                <td>Rp 5.000</td>
+            </tr>
+               <tr>
+                <td>4</td>
+                <td>Gabin</td>
+                <td>Rp 8.000</td>
+            </tr>
+               <tr>
+                <td>5</td>
+                <td>Sabun mandi</td>
+                <td>Rp 26.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td><b>Total</b></td>
+                <td>Rp 59.000</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h3>daftar piket</h3>
+    <table border="1">
+        <tr>
+            <th rowspan="2">No</th>
+            <th colspan="7">Pekan 1</th>
+           
+        </tr>
+            <tr>
+            <th>Senin</th>
+            <th>Selasa</th>
+            <th>Rabu</th>
+            <th>Kamis</th>
+            <th>Jum'at</th>
+            <th>Sabtu</th>
+            <th>Ahad</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Udin</td>
+            <td colspan="2">Hanif ujang</td>
+           
+            <td>Azka</td>
+            <td>Bahlul</td>
+            <td>Bambang</td>
+            <td rowspan="2">Kusno adit</td>
+        </tr>
+             <tr>
+            <td>2</td>
+            <td>bahri</td>
+            <td>ujang</td>
+            <td>Kusno</td>
+            <td>Azka</td>
+            <td>Badrul</td>
+            <td>Slamet</td>
+            
+        </tr>
+    </table>
+  </body>
+
+</html>

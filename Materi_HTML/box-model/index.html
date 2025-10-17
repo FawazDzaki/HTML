@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3: Box Model</title>
+    <!-- add pico css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+
+    <link rel="stylesheet" href="styling.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CSS3: Box Model</h1>
+      <hr />
+      <div class="grid">
+        <div class="card">
+          <div id="box1">Box 1- polos</div>
+        </div>
+        <div class="card">
+          <div id="box2">Box 2- Padding</div>
+        </div>
+        <div class="card"><div id="box3">box 3 - padding + border</div></div>
+        <div class="card">
+          <div id="box4">box 4 - padding + border + margin</div>
+        </div>
+      </div>
+
+      <br><br><br>
+
+      <h2>position</h2>
+      <!-- start grid -->
+       <div class="grid">
+        <div class="card">
+            <div id="box5">
+                Static
+            </div>
+        </div>
+        <div class="card">
+            <div id="box6">
+                Relative
+            </div>
+        </div>
+        <div class="card" style="position: relative;">
+            <div id="box7">
+                absolute
+            </div>
+        </div>
+         <div class="card">
+            <div id="box8">
+                Fixed
+            </div>
+       </div>
+
+       <br><br><br>
+    </div>
+  </body>
+</html>

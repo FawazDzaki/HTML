@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="background">
+    <div class="container" id="subjudul">
+      <div>
+        <h1>Formulir Umpan Balik</h1>
+        <h4>Kritik, Saran, dan Masukan</h4>
+      </div>
+      <hr />
+      <br />
+      <nav>
+        <a href="index.html">Beranda</a>
+        <a href="Biodata-css  .html">Biodata</a>
+        <a href="Jadwal.html">Jadwal</a>
+        <a href="Galeri.html">Galeri</a>
+        <a class="active" href="feedback.html">feedback</a>
+      </nav>
+      <br />
+      <hr />
+    </div>
+    <div class="box-1" id="subjudul">
+      <form action="https://httpbin.org/post">
+        <h2 class="section-title">Formulir Kontak & Saran</h2>
+        <p>
+          Berikan masukan terbaik Anda untuk pengembangan website profile ini.
+          Semua input bersifat wajib kecuali nama.
+        </p>
+        <div class="label">
+          <div>
+            <label for="Nama lengkap"><b>Nama Anda (Opsional) :</b></label>
+            <input type="text" name="Nama lengkap" id="Nama lengkap" />
+          </div>
+          <br />
+          <div>
+            <label for="AlamatEmail"><b>Email Anda:</b></label>
+            <input type="email" name="email" id="AlamatEmail" />
+          </div>
+          <br />
+          <div>
+            <label for="Rating"
+              ><b>Rating Kepuasan Website (Skala 1-10) :</b>
+            </label>
+            <input type="number" name="Rating" id="Rating" />
+          </div>
+          <br />
+        </div>
+
+        <div>
+          <label><b>Rekomendasi Website ini?:</b></label
+          ><br />
+          <br />
+          <input type="radio" name="Rekomendasi" id="Ya,sangat" />
+          <label for="Ya,sangat">Ya, Sangat</label>
+          <input type="radio" name="Rekomendasi" id="Mungkin" />
+          <label for="Mungkin">Mungkin saja</label>
+          <input type="radio" name="No" id="No" />
+          <label for="No">Tidak</label>
+        </div>
+        <br />
+
+        <div>
+          <label><b>Topik yang paling menarik:</b></label
+          ><br />
+          <br />
+          <input type="checkbox" name="Topik" id="topik" />
+          <label for="topik">Biodata</label>
+          <input type="checkbox" name="Topik" id="topik" />
+          <label for="topik">Jadwal</label>
+          <input type="checkbox" name="Topik" id="topik" />
+          <label for="topik">Galeri</label>
+        </div>
+        <br />
+
+        <div class="label">
+          <label for="saran"><b>Saran Pengembangan di Bidang:</b></label>
+          <select name="saran" id="saran">
+            <option value="CSS">Styling CSS</option>
+            <option value="Struktur">Struktur CSS</option>
+          </select>
+        </div>
+        <br />
+
+        <div class="label">
+          <label for="pesan"><b>Pesan/Saran Lengkap:</b></label>
+          <textarea name="Pesan" id="pesan"></textarea>
+        </div>
+
+        <div class="grid">
+          <button type="reset">Batal</button>
+          <button type="submit">Simpan</button>
+        </div>
+      </form>
+    </div>
+    <div class="footer">
+      <p>Copyright &copy; 2025 | Santri HSI | Fawaz_Dzaki Dev</p>
+    </div>
+  </body>
+</html>

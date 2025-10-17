@@ -1,0 +1,102 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+.playwrite {
+  font-family: "Playwrite DE SAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bismillah Script";
+  src: url(fonts/bismillah_script/Bismillah\ Script.ttf);
+}
+
+.font{
+  font-family:"Bismillah Script";
+  color: #FCC61D;
+  font-size: 35px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+body {
+  background-color: white;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+header h4 {
+  font-style: italic;
+}
+
+/* properti yang di pakai ada 2 */
+/* 1.text align */
+/* 2.line-heigth */
+
+header {
+  text-align: center;
+  background-color: #3338a0;
+  color: white;
+  line-height: 2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  word-spacing:5px ;
+}
+
+article h2 {
+  color: #3338a0;
+}
+
+article p {
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.box {
+  background: #ffffff;
+  border: 1px solid #9d9fa4;
+  border-radius: 12px;
+  margin-top: 20px;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 20px black;
+}
+
+.quote {
+  background: #e8d0b5;
+  border: 1px solid #9d9fa4;
+  margin-top: 20px;
+  padding: 20px;
+  margin-left: 1px;
+  margin-top: 20px;
+  
+  border-left: 5px solid #C59560 ;
+}
+
+.note{
+    background-color: #e4d4a2;
+    border-left:5px solid #FCC61D;
+    padding: 20px;
+
+}
+
+.ttd{
+  font-weight:700;
+  text-align: right;
+  margin-top: 40px;
+  line-height: 1,5;
+font-size: larger;
+}
+
+footer{
+  text-align: center;
+  margin-top: 40px;
+
+}
+
