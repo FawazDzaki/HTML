@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tugas 4: Real App UI Component</h1>
+      <hr />
+      <br />
+      <div class="box">
+        <h2 class="subjudul">1. Dismissible Alert (Positioning)</h2>
+        <hr />
+        <div class="alert-info">
+          <p>ℹ️ Info: Pastikan data Anda sudah lengkap sebelum dikirim.</p>
+          <button
+            type="button"
+            onclick="this.parentElement.style.display='none'"
+            class="close"
+          >
+            ×
+          </button>
+        </div>
+      </div>
+
+      <!-- alert end -->
+
+      <!-- Profile Card -->
+      <div class="box">
+        <h2 class="subjudul">Profile Card dengan Foto & Badge</h2>
+        <hr />
+        <div class="card">
+          <div class="flexbox-profile">
+            <div class="avatar">
+              <div class="relative">
+                <img src="assets/Foto ganteng.jpg" alt="User Photo" />
+                <span class="badge">Active</span>
+              </div>
+            </div>
+            <h6>Muhammad Tsalis Fawaz Dzaki</h6>
+            <p>Frontend Developer</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Profile card end -->
+
+      <div class="box">
+        <h2 class="subjudul">2.Resonsive Pricing Cards (Flexbox)</h2>
+        <hr />
+        <div class="flexbox-area">
+          <div class="card">
+            <h6>Basic</h6>
+            <p class="price">Rp50.000</p>
+            <div class="fitur">
+              <p>1 Project</p>
+              <p>Community Support</p>
+            </div>
+            <button type="button" class="pricing-card">Pilih Paket</button>
+          </div>
+
+          <div class="card pro-blue">
+            <h6>Pro</h6>
+            <p class="price">Rp150.000</p>
+            <div class="fitur">
+              <p>5 Projects</p>
+              <p>Priority Support</p>
+            </div>
+            <button type="button" class="pricing-card">Pilih Paket</button>
+          </div>
+
+          <div class="card">
+            <h6>Enterprise</h6>
+            <p class="price">Rp300.000</p>
+            <div class="fitur">
+              <p>Unlimited Projects</p>
+              <p>Dedicated Support</p>
+            </div>
+            <button type="button" class="pricing-card">Pilih Paket</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

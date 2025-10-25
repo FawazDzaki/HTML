@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3: Display & Flexbox</title>
+    <!-- pico css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- beri space di kiri-kanan halaman -->
+    <div class="container">
+      <h1>CSS3:Flexbox - Latihan Tugas</h1>
+      <hr />
+      <h2>Latihan 1: Pricing Box</h2>
+      <!-- wadah/parent dari flexbox -->
+      <div class="flexbox-area">
+        <!-- flex items (Semua yang ada di dalam) -->
+        <div class="card">
+          <h3>Basic</h3>
+          <p>Rp 50.000</p>
+          <ul class="ul">
+            <li>1 Project</li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="card pro-blue">
+          <h3>Pro</h3>
+          <p>Rp 150.000</p>
+          <ul class="ul">
+            <li>5 Project</li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="card ul">
+          <h3>Enterprise</h3>
+          <p>Rp 300.000</p>
+          <ul class="ul">
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <!-- flexbox-end -->
+       <br><hr><br>
+       <h2>Latihan 2: arlert Info</h2>
+       <div class="flexbox-area alert-info">
+        <p>ℹ️ Info: Jangan sampai ketumpahan indomie!</p>
+        <button type="button" 
+onclick="this.parentElement.style.display='none'"
+>❌</button>
+       </div>
+    </div>
+  </body>
+</html>
