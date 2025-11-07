@@ -39,7 +39,7 @@
 }
 
 .close {
-  background-color:transparent;
+  background-color: transparent;
   border: none;
   position: absolute;
   right: 1px;
@@ -56,7 +56,6 @@
   align-items: center;
   font-size: small;
 }
-
 
 .avatar img {
   border-radius: 50%;
@@ -100,9 +99,7 @@
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-    
 }
-
 
 .fitur {
   font-size: small;
@@ -124,5 +121,5 @@
   padding: 4px 6px;
   font-size: 14px;
   border-radius: 5px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }

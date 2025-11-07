@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container bg-light">
+      <h1 class="text-primary">Hello, world!</h1>
+      <div class="alert alert-warning" role="alert">
+        <strong class="bg-danger border border-danger text-white"
+          >PERINGATAN</strong
+        >
+        Terjadi kebakaran di bengkell!!
+      </div>
+      <!-- varian warna color di bootstrap -->
+      <!-- primary/success/info/warning/danger -->
+      <button type="button" class="btn btn-success">Simpan data</button>
+      <button type="reset" class="btn btn-danger">Reset data</button>
+
+      <!-- Layout responsive -->
+      <!-- wajib di bungkus dengan class row -->
+      <div class="row">
+        <!-- .col6 : tulis class div dengan class khusus -->
+        <!-- 2 kolom = 6 + 6 = 12 grid -->
+        <div class="col-6 bg-info">
+          <h2>KOLOM KIRI</h2>
+        </div>
+        <div class="col-6 bg-success">
+          <h2>KOLOM KANAN</h2>
+        </div>
+      </div>
+      <!-- end row -->
+
+      <div class="row">
+        <!-- layar medium ke ata = 4 kolom -->
+        <!-- layar keci = 2 kolom -->
+        <!-- layar super kecil = 1 kolom/ col 12 -->
+
+        <div class="col-md-3 col-sm-6 col-12">
+          <img
+            src="https://images.unsplash.com/photo-1572877372271-c82a94487c68?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aW5kb25lc2lhfGVufDB8MnwwfHx8Mg%3D%3D&auto=format&fit=crop&q=60&w=600"
+            class="img-thumbnail"
+            alt="Pulau"
+          />
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <img
+            src="https://images.unsplash.com/photo-1724060972935-af5974af0c47?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=881"
+            class="img-thumbnail"
+            alt="gambar"
+          />
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <img
+            src="https://images.unsplash.com/photo-1641209624342-e20d49275892?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fGpha2FydGF8ZW58MHwyfDB8fHwy&auto=format&fit=crop&q=60&w=600"
+            class="img-thumbnail"
+            alt="mobil"
+          />
+        </div>
+        <div class="col-md-3 col-sm-6 col-12">
+          <img
+            src="https://images.unsplash.com/photo-1626509629438-e02aa1baeab1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aW5kb25lc2lhfGVufDB8MnwwfHx8Mg%3D%3D&auto=format&fit=crop&q=60&w=600"
+            class="img-thumbnail"
+            alt="sindoro"
+          />
+        </div>
+        <div class="col-md-6 col-sm-6 col-12">
+          <img
+            src="https://media.istockphoto.com/id/2191853299/photo/travel-people-enjoy-epic-view-famous-travel-destination-diamond-beach-bali-with-scenery.webp?a=1&b=1&s=612x612&w=0&k=20&c=vyJJg3ZgGUFxrKi8g1SmcdfFtAEQ9kg2SW5PaZtzqKg="
+            class="img-thumbnail"
+            alt="motor"
+          />
+        </div>
+        <div class="col-md-6 col-sm-6 col-12">
+          <img
+            src="https://media.istockphoto.com/id/500798563/photo/city-skyline-at-sunset-jakarta-indonesia.webp?a=1&b=1&s=612x612&w=0&k=20&c=dn6bs30BmbqRLu4rmT1ltIAXPbLES2FB9Sior1oc0CE="
+            class="img-thumbnail"
+            alt="city"
+          />
+        </div>
+      </div>
+    </div>
+
+    <h2>TABLE</h2>
+    <table class="table table-hover">
+      <tr>
+        <th colspan="2">Waktu</th>
+
+        <th rowspan="2">Hari</th>
+        <th rowspan="2" colspan="5">Kegiatan</th>
+      </tr>
+
+      <tr>
+        <th>Mulai</th>
+        <th>Selesai</th>
+      </tr>
+      <tr>
+        <td>08:00</td>
+        <td>10:00</td>
+        <td>Senin</td>
+        <td>Pelajaran Web Dasar (teori HTML)</td>
+      </tr>
+      <tr>
+        <td>10:00</td>
+        <td>10:30</td>
+        <td colspan="2">Istirahat (Snack & Shalat Dhuha)</td>
+      </tr>
+
+      <tr>
+        <td>10:30</td>
+        <td>12:00</td>
+        <td>Senin</td>
+        <td>Latihan Prakatikum HTML Table</td>
+      </tr>
+      <tr>
+        <td>14:00</td>
+        <td>16:00</td>
+        <td>Selasa</td>
+        <td>Pelajaran Web Dasar (Teori CSS & Box Model)</td>
+      </tr>
+      <tr>
+        <td>16:00</td>
+        <td>16:45</td>
+        <td>Selasa</td>
+        <td>Olahraga (Renang)</td>
+      </tr>
+    </table>
+
+    <!-- container-fluid: full width 100% -->
+    <!-- <div class="container-fluid bg-danger">
+        <h1>fluid width 100%!!</h1>
+        <p>kebakaran gaes kebakaran!!</p>
+    </div> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
